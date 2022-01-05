@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Điểm trung bình của học sinh</title>
+</head>
+<body>
+<script>
+    let inputToan
+    let inputHoa
+    let inputVatly
+    inputToan=prompt("Nhập điểm Toán")
+    inputHoa=prompt("Nhập điểm Hóa")
+    inputVatly=prompt("Nhập điểm Vật")
+    let Toan= parseInt(inputToan)
+    let Hoa= parseInt(inputHoa)
+    let Vatly= parseInt(inputVatly)
+    let tong=Toan+ Hoa+ Vatly
+    let trungbinh=(Toan+Hoa+Vatly)/3
+    document.write("Tổng="+ tong)
+    document.write("Điểm trung bình="+ trungbinh)
+</script>
+</body>
+</html>
